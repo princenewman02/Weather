@@ -30,7 +30,7 @@ This project collects daily precipitation data from Seattle, WA and Portland, OR
 
 - **Source:** Link to the data source(s) 
     - Seattle precipitation datasets from the DATA 5100 course GitHub repository (https://github.com/brian-fischer/DATA-5100/blob/main/weather/seattle_rain.cs)
-    - NOAA Climate Data Online (Daily Summaries) for Portland, OR. 
+    - NOAA Climate Data Online (Daily Summaries) for Portland, OR  (https://www.ncei.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:US1ORMT0083/detail)
 - **Description:** CSV files containing daily precipitation data (`PRCP`) from January 1, 2018 to December 31, 2022. Columns include `date` and `prcp` (precipitation). Data sizes range from ~623 to 1,690 rows per city
 - **License:** Public domain dataset provided by NOAA.
 
