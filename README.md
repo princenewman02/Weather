@@ -1,16 +1,16 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Weather Project
 
-> A brief description of what the project does and its purpose.
+> Compare precipitation between Seattle, WA and Portland, OR for the period 2018-01-01 to 2022-12-31. The project aims to explore which city receives more rainfall and visualize precipitation trends.
 
 ---
 
 ## Project Overview
 
-Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
+This project collects daily precipitation data from Seattle, WA and Portland, OR to compare rainfall patterns over a five-year period. It demonstrates how to organize a data science project, load and clean datasets, and perform basic exploratory data analysis (EDA) and visualization.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Objective:** Compare total precipitation between Seattle and Portland, and visualize rainfall trends.
+- **Domain:** Weather / Climate 
+- **Key Techniques:** Data Cleaning, Exploratory Data Analysis (EDA), Data Visualization, Time Series Analysis
 
 ---
 
@@ -29,8 +29,10 @@ Provide a short and concise overview of the project. Mention the problem it solv
 ## Data
 
 - **Source:** Link to the data source(s) 
-- **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
+    - Seattle precipitation datasets from the DATA 5100 course GitHub repository (https://github.com/brian-fischer/DATA-5100/blob/main/weather/seattle_rain.cs)
+    - NOAA Climate Data Online (Daily Summaries) for Portland, OR. 
+- **Description:** CSV files containing daily precipitation data (`PRCP`) from January 1, 2018 to December 31, 2022. Columns include `date` and `prcp` (precipitation). Data sizes range from ~623 to 1,690 rows per city
+- **License:** Public domain dataset provided by NOAA.
 
 ---
 
